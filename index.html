@@ -29,10 +29,10 @@
       </button>
       <div id="navbar-items" class="collapse navbar-collapse">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item active"><a class="nav-link" href="#" aria-current="page">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Projetos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Imóveis</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+          <a class="nav-link" href="#"><li class="nav-item" data-bs-toggle="collapse" data-bs-target="#navbar-items">Home</li></a>
+          <a class="nav-link" href="#featured-container"><li class="nav-item" data-bs-toggle="collapse" data-bs-target="#navbar-items">Projetos</li></a>
+          <a class="nav-link" href="#info-container"><li class="nav-item" data-bs-toggle="collapse" data-bs-target="#navbar-items">Informações</li></a>
+          <a class="nav-link" href="#contact-container"><li class="nav-item" data-bs-toggle="collapse" data-bs-target="#navbar-items">Contato</li></a>
         </ul>
       </div>
     </div>
@@ -41,17 +41,16 @@
   <div id="slider-container" class="container">
     <div id="slider" class="slide carousel" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
-        <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2">
-        <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3">
-        </button>
+        <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100" src="img/banner-1.jpg" alt="Casa 1">
           <div class="carousel-caption">
             <h5>Casas planejadas</h5>
-            <a class="btn btn-dark" href="#">Ver Projetos</a>
+            <a class="btn btn-dark" href="#featured-container">Ver Projetos</a>
           </div>
         </div>
 
@@ -59,7 +58,7 @@
           <img class="d-block w-100" src="img/banner-2.jpg" alt="Casa 2">
           <div class="carousel-caption">
             <h5>Projetos Complexos</h5>
-            <a class="btn btn-dark" href="#">Ver Projetos</a>
+            <a class="btn btn-dark" href="#featured-container">Ver Projetos</a>
           </div>
         </div>
 
@@ -67,7 +66,7 @@
           <img class="d-block w-100" src="img/banner-3.jpg" alt="Casa 3">
           <div class="carousel-caption">
             <h5>Projetos Inovadores</h5>
-            <a class="btn btn-dark" href="#">Ver Projetos</a>
+            <a class="btn btn-dark" href="#featured-container">Ver Projetos</a>
           </div>
         </div>
       </div>
